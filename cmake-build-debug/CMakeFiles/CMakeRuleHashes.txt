@@ -1,0 +1,16 @@
+# Hashes of file build rules.
+a8f7c62f0b2c2d239895bb7aa9cb00c3 address.pb.h
+4c560d081b3810a77102bedc8ac41174 company.pb.h
+bdd8d6958e70928c7442de6a7e6da385 database.pb.h
+a7d4c04466579cce4c156e25e5066f96 directed_graph.pb.h
+d88662c47c22c0dc18e30ac3acb3e512 name.pb.h
+fdcb70728e857bb3fd2e0405e9e6e239 phone.pb.h
+0699c407f2af5c48f90f70c9f70084cd router.pb.h
+53a95d57563b975010da6ca46cc41635 rubric.pb.h
+ecf4ce088888a0b12f95eefed48c3f6d sphere.pb.h
+0c2755cace10a60d4b8d3841203c8f1b svg.pb.h
+b09677814283f6ab4a13eb52c781f24f transport_catalog.pb.h
+9020dab3fd3ef0ae123a17ea2f9dd57b transport_renderer.pb.h
+7a21c01241825d6b49a88850a9b665f7 transport_router.pb.h
+39003c9af11800565b7985ebbdbaeaae url.pb.h
+c709fe832c04561a67c17d7754771a79 working_time.pb.h

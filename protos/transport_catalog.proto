@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+import "transport_router.proto";
+import "transport_renderer.proto";
+import "database.proto";
+
+package Serialization;
+
+message SerializedStops {
+  string stopName = 1;
+  repeated string busNames = 2;
+}
+
+message SerializedBuses {
+  string busName = 1;
+  uint32 stopCount = 2;
+  uint32 uniqueStopCount = 3;
+  int32 roadRouteLength = 4;
+  double geoRouteLength = 5;
+}
+
+message TransportCatalog {
+  repeated SerializedStops stops = 1;
+  repeated SerializedBuses buses = 2;
+  TransportRouter router = 3;
+  TransportRenderer renderer = 4;
+  YellowPages.Database database = 5;
+}
+

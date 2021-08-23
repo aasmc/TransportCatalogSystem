@@ -1,0 +1,69 @@
+syntax = "proto3";
+
+import "svg.proto";
+import "company.proto";
+import "sphere.proto";
+
+package Serialization;
+
+message RenderProps {
+  double width = 1;
+  double height = 2;
+  double padding = 3;
+  double stopRadius = 4;
+  double lineWidth = 5;
+  double outerMargin = 6;
+  double underlayerWidth = 7;
+  double companyRadius = 8;
+  double companyLineWidth = 9;
+
+  int32 stopLabelFontSize = 10;
+  int32 busLabelFontSize = 11;
+
+  Point stopLabelOffset = 12;
+  Point busLabelOffset = 13;
+
+  Color underlayerColor = 14;
+
+  repeated Color colorPalette = 15;
+
+  repeated string layers = 16;
+}
+
+message BusDescription {
+  string name = 1;
+  repeated string stops = 2;
+  repeated string endStops = 3;
+}
+
+message CompaniesDescription {
+  string mainName = 1;
+  string displayName = 2;
+  repeated YellowPages.NearbyStop nearbyStops = 3;
+  SphereProto.Coords coords = 4;
+}
+
+message BusToColor {
+  string busName = 1;
+  Color busColor = 2;
+}
+
+
+message StopPosition {
+  string stopName = 1;
+  Point stopPosition = 2;
+}
+
+message CompanyPosition {
+  string companyName = 1;
+  Point companyPosition = 2;
+}
+
+message TransportRenderer {
+  RenderProps renderProps = 1;
+  repeated BusDescription busesDict = 2;
+  repeated StopPosition stopPositions = 3;
+  repeated BusToColor busColors = 4;
+  repeated CompaniesDescription companiesDescription = 5;
+  repeated CompanyPosition companiesPositions = 6;
+}

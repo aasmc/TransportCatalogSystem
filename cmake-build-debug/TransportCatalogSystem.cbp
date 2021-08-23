@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TransportCatalogSystem"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TransportCatalog">
+				<Option output="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/TransportCatalog" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aasmc/CLionProjects/TransportCatalogSystem/."/>
+					<Add directory="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 TransportCatalog"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TransportCatalog/fast">
+				<Option output="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/TransportCatalog" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aasmc/CLionProjects/TransportCatalogSystem/."/>
+					<Add directory="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 TransportCatalog/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/address.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/address.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/address.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/company.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/company.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/company.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/database.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/database.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/database.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/directed_graph.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/directed_graph.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/directed_graph.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/name.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/name.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/name.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/phone.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/phone.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/phone.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/router.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/router.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/router.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/rubric.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/rubric.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/rubric.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/sphere.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/sphere.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/sphere.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/svg.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/svg.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/svg.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/transport_catalog.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/transport_catalog.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/transport_catalog.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/transport_renderer.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/transport_renderer.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/transport_renderer.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/transport_router.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/transport_router.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/transport_router.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/url.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/url.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/url.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/working_time.pb.cc">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/working_time.pb.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/cmake-build-debug/working_time.pb.h.rule">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/companies_components.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/companies_components.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/companies_database.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/companies_database.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/compression.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/compression.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/descriptions.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/descriptions.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/graph.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/json.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/json.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/main.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/requests.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/requests.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/router.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/sphere.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/sphere.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/svg.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/svg.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/transport_catalog.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/transport_catalog.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/transport_renderer.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/transport_renderer.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/transport_router.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/transport_router.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/utils.cpp">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/utils.h">
+			<Option target="TransportCatalog"/>
+		</Unit>
+		<Unit filename="/Users/aasmc/CLionProjects/TransportCatalogSystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

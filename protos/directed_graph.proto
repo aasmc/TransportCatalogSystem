@@ -1,0 +1,17 @@
+syntax="proto3";
+package Serialization;
+
+message Edge {
+  uint32 vertexFrom = 1;
+  uint32 vertexTo = 2;
+  double weight = 3;
+}
+
+message IncidenceList {
+  repeated uint32 edgeId = 1;
+}
+
+message DirectedWeightedGraph {
+  repeated Edge edges = 1;
+  repeated IncidenceList incidenceLists = 2;
+}

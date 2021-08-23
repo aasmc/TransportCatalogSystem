@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package Serialization;
+
+message Point {
+  double x = 1;
+  double y = 2;
+}
+
+message Rgba {
+  uint32 red = 1;
+  uint32 blue = 2;
+  uint32 green = 3;
+  bool hasAlpha = 4;
+  double alpha = 5;
+}
+
+message Color {
+  oneof possibleColor {
+    bool noColor = 1;
+    string stringColor = 2;
+    Rgba rgba = 3;
+  }
+}

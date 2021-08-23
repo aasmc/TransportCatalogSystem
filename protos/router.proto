@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package Serialization;
+
+message RoutesInternalData {
+  bool exists = 1;
+  double weight = 2;
+  bool hasPrevEdge = 3;
+  uint32 prevEdge = 4;
+}
+
+message VectorRoutesInternalData {
+  repeated RoutesInternalData routesInternalData = 1;
+}
+
+message Router {
+  repeated VectorRoutesInternalData vectorRoutesInternalData = 1;
+}

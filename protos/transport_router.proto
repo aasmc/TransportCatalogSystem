@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+import "directed_graph.proto";
+import "router.proto";
+
+package Serialization;
+
+message SerializedRoutingSettings {
+  int32 busWaitTime = 1;
+  double busVelocity = 2;
+  double pedestrianVelocity = 3;
+}
+
+message SerializedStopVertexIds {
+  string name = 1;
+  uint32 in = 2;
+  uint32 out = 3;
+}
+
+message VertexInfo {
+  string stopName = 1;
+}
+
+message BusEdgeInfo {
+  string name = 1;
+  uint32 spanCount = 2;
+  uint32 startStopIndex = 3;
+  uint32 endStopIndex = 4;
+}
+
+message WaitEdgeInfo {}
+
+message WalkEdgeInfo {
+  string companyName = 1;
+  string companyDisplayName = 2;
+  string stopName = 3;
+}
+
+message CompaniesVertices {
+  string companyName = 1;
+  uint32 vertexId = 2;
+}
+
+message EdgeInfo {
+  oneof edgeInfo {
+    BusEdgeInfo busEdgeInfo = 1;
+    WaitEdgeInfo waitEdgeInfo = 2;
+    WalkEdgeInfo walkEdgeInfo = 3;
+  }
+}
+
+message TransportRouter {
+  SerializedRoutingSettings routingSettings = 1;
+  DirectedWeightedGraph graph = 2;
+  Router router = 3;
+  repeated SerializedStopVertexIds stopVertexIds = 4;
+  repeated VertexInfo verticesInfo = 5;
+  repeated EdgeInfo edgesInfo = 6;
+  repeated CompaniesVertices companiesVertices = 7;
+}
